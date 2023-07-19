@@ -37,23 +37,23 @@
                         <!-- Nested Row within Card Body -->
                         <div class="row">
                             <div class="col-lg-6 d-none d-lg-block" style="background-image: url('img/image.jpg');  background-position: center;
-                            background-size: cover;">
+                            background-size: cover;background-color: burlywood !important;">
                               
                             </div>
                             <div class="col-lg-6">
                                 <div class="p-5">
                                     <div class="text-center">
-                                        <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
+                                        <h1 class="h4 text-gray-900 mb-4"><strong>LOGIN</strong></h1>
                                     </div>
-                                    <form class="user">
+                                    <form class="user" action="loginPageBackend.php" method="POST">
                                         <div class="form-group">
-                                            <input type="email" class="form-control form-control-user"
-                                                id="exampleInputEmail" aria-describedby="emailHelp"
-                                                placeholder="Enter Email Address...">
+                                            <input type="text" class="form-control form-control-user"
+                                                id="username" aria-describedby="emailHelp"
+                                                placeholder="Enter Username Address...">
                                         </div>
                                         <div class="form-group">
                                             <input type="password" class="form-control form-control-user"
-                                                id="exampleInputPassword" placeholder="Password">
+                                                id="password" placeholder="Password">
                                         </div>
                                         <div class="form-group">
                                             <div class="custom-control custom-checkbox small">
